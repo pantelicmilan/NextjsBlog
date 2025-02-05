@@ -1,0 +1,1 @@
+export const baseApi =  'https://67a3c47a31d0d3a6b7849327.mockapi.io/api/v1/blogs';
