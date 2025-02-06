@@ -32,7 +32,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
+.main-nav{
+  z-index: 10000;
+}
 
 @media(max-width: 900px){
   .blog-list{

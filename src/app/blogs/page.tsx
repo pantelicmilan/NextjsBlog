@@ -1,8 +1,15 @@
 import { baseApi } from "@/global-const/base-api";
 import BlogCard from "./BlogCard";
 import { Blog } from "@/global-const/blog";
+import { Metadata } from "next";
 
 export const revalidate = 30;
+
+export const metadata: Metadata = {
+    title: 'All blogs',
+    description: 'All blogs on MyBlog',
+    keywords: ['myblog', 'all blogs']
+}
 
 export default async function Blogs(){
     const response = await fetch(baseApi)
