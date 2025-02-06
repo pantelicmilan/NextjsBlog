@@ -33,8 +33,12 @@ body {
 }
 
 
+
 @media(max-width: 900px){
   .blog-list{
     width: 90%;
+  }
+  .error-wrapper{
+    flex-direction: column;
   }
 }

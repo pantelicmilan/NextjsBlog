@@ -2,7 +2,7 @@ import { baseApi } from "@/global-const/base-api";
 import BlogCard from "./BlogCard";
 import { Blog } from "@/global-const/blog";
 
-export const revalidate = 120;
+export const revalidate = 30;
 
 export default async function Blogs(){
     const response = await fetch(baseApi)
